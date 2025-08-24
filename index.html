@@ -8,41 +8,45 @@
     <title>Théo Cavagne</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">Accueil</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="about">
-            <div>
-                <h2>Bienvenue, je suis</h2>
-                <h1>Théo Cavagne</h1>
-                <p>un &lt;dev&gt;</p>
-            </div>
-            <div>
-                <p>A propos de moi</p>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit at sequi aliquid cumque hic, illum consequatur nobis omnis deserunt voluptatibus, ratione veniam commodi doloribus dolorum tempora sed fugiat saepe. Voluptatum!     </p>
-            </div>
-            <div>
-                <a href="#contact">Me contacter</a>
-            </div>
-        </section>
-        <section id="projects">
-            <h2>Projets</h2>
-            <ul>
-                <li>Projet1</li>
-                <li>Projet2</li>
-                <li>Projet3</li>
-            </ul>
-        </section>
-    </main>
+<body>
+    <div class="landing-page">
+        <header>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#about">Accueil</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="intro">
+                    <p class="welcome-text">Bienvenue, je suis</h2>
+                    <h1>Théo Cavagne</h1>
+                    <p class="dev-text">un &lt;dev&gt;</p>
+                </div>
+                <div class="bio">
+                    <p>A propos de moi</p>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit at sequi aliquid cumque hic, illum consequatur nobis omnis deserunt voluptatibus, ratione veniam commodi doloribus dolorum tempora sed fugiat saepe. Voluptatum!     </p>
+                </div>
+                <div>
+                    <a class="contact-btn" href="#contact">Me contacter</a>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <section id="projects">
+        <h2>Projets</h2>
+        <ul>
+            <li>Projet1</li>
+            <li>Projet2</li>
+            <li>Projet3</li>
+        </ul>
+    </section>
     <footer id="contact">
         <p>Contactez-moi à : ... </p>
     </footer>

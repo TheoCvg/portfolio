@@ -1,0 +1,140 @@
+html, body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    height: 100%;
+}
+
+body, .landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+main 
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+/*#region navigation */
+
+header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+
+nav {
+    background: #bfbfbf;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li 
+{
+    padding: 6px 14px;
+    border-radius: 15px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+nav ul li.active 
+{
+    background: #d9d9d9;
+    font-weight: bold;
+}
+
+nav ul li:hover
+{
+    background: #d9d9d9;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*#endregion navigation */
+
+/*#region about me */
+
+#about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#about .intro 
+{
+    margin-bottom: 20px;
+}
+
+#about .intro .welcome-text
+{
+    font-size: 3em;
+    margin: 0;
+}
+
+#about .intro h1 
+{
+    font-size: 6em;
+    margin: 0.2em 0;
+}
+
+#about .intro .dev-text
+{
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 0.2em;
+}
+
+#about .bio 
+{
+    max-width: 900px;
+    margin: 20px auto 0 auto;
+    padding: 0 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contact-btn 
+{
+    display: inline-block;
+    margin-top: 80px;
+    padding: 15px 30px;
+    background: #1a73e8;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: semi-bold;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover 
+{
+    background: #0f5ed3;
+}
+
+/*#endregion about me */

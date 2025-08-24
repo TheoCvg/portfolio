@@ -1,56 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Théo Cavagne">
-    <meta name="description" content="Portfolio de Théo Cavagne, apprenti développeur logiciel .NET">
-    <title>Théo Cavagne</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Théo Cavagne">
+        <meta name="description" content="Portfolio de Théo Cavagne, apprenti développeur logiciel .NET">
+        <title>Théo Cavagne</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
-    <div class="landing-page">
-        <header>
-            <nav>
-                <ul>
-                    <li class="active"><a href="#about">Accueil</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <body>
+        <div class="landing-page">
+            <header>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#about">Accueil</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <main>
-            <section id="about">
-                <div class="intro">
-                    <p class="welcome-text">Bienvenue, je suis</h2>
-                    <h1>Théo Cavagne</h1>
-                    <p class="dev-text">un &lt;dev&gt;</p>
-                </div>
-                <div class="bio">
-                    <p>A propos de moi</p>
-                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit at sequi aliquid cumque hic, illum consequatur nobis omnis deserunt voluptatibus, ratione veniam commodi doloribus dolorum tempora sed fugiat saepe. Voluptatum!     </p>
-                </div>
-                <div>
-                    <a class="contact-btn" href="#contact">Me contacter</a>
-                </div>
-            </section>
-        </main>
-    </div>
-    
-    <section id="projects">
-        <h2>Projets</h2>
-        <div class="projects">
-            <div class="project-list">
-                <button class="active">Breezy</button>
-                <button>Easysave</button>
-            </div>
-            <div class="project-display"></div>
+            <main>
+                <section id="about">
+                    <div class="intro">
+                        <p class="welcome-text">Bienvenue, je suis</h2>
+                        <h1>Théo Cavagne</h1>
+                        <p class="dev-text">un &lt;dev&gt;</p>
+                    </div>
+                    <div class="bio">
+                        <p>A propos de moi</p>
+                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit at sequi aliquid cumque hic, illum consequatur nobis omnis deserunt voluptatibus, ratione veniam commodi doloribus dolorum tempora sed fugiat saepe. Voluptatum!     </p>
+                    </div>
+                    <div>
+                        <a class="contact-btn" href="#contact">Me contacter</a>
+                    </div>
+                </section>
+            </main>
         </div>
+        
+        <section id="projects">
+            <h2>Projets</h2>
+            <div class="projects">
+                <div class="project-list">
+                    <button class="active">Breezy</button>
+                    <button>Easysave</button>
+                </div>
+                <div class="project-display"></div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Me contacter</h2>
+
+            <div class="contact-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-input">
+                                <p>Prénom</p>
+                                <input type="text" placeholder="Prénom">
+                            </div>
+                            <div class="form-input">
+                                <p>Nom</p>
+                                <input type="text" placeholder="Nom">
+                            </div>
+                        </div>
+
+                        <div class="form-input">
+                            <p>Email</p>        
+                            <input type="email" placeholder="Email">
+                        </div>
+
+                        <div class="form-input">
+                            <p>Message</p>        
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="form-footer">
+                            <button class="send-btn" type="submit">Envoyer</button>
+
+                            <div class="socials">
+                                <a href="https://github.com/TheoCvg" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></a>
+                                <a href="https://www.linkedin.com/in/theo-cavagne/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"></a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
     </section>
-    <footer id="contact">
-        <p>Contactez-moi à : ... </p>
-    </footer>
-</body>
+
+    <footer></footer>
+    </body>
 </html>
